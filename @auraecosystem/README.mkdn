@@ -1,0 +1,81 @@
+# Hi there 👋 I'm Aura Ecosystem — Open source, AI agents & Web4 tooling
+
+> Building developer tools, agentic workflows, and web-native experiences. I ship practical open-source software that helps teams automate work and move from prototype to production.
+
+[![Profile](https://img.shields.io/badge/profile-auraecosystem-black?style=flat-square)](https://github.com/auraecosystem) [![GitHub followers](https://img.shields.io/github/followers/auraecosystem?label=Follow&style=social)](https://github.com/auraecosystem)
+
+---
+
+## About
+- 🔭 I build open-source tooling: CLIs, agent frameworks, AI-assisted developer tools, and Web4 projects.  
+- 🌱 I experiment with agent-based automation, browser/test automation, and AI-first developer UX.  
+- 👯 I’m open to collaboration on agentic workflows, developer tooling, RAG/AI pipelines, and web-native apps.  
+- ⚡ I maintain a broad collection of experimental repos across tooling, AI, and systems.
+
+---
+
+## Top skills
+- Languages & tooling: JavaScript / TypeScript · Python · Shell  
+- Domains: CLI tooling · Agent integrations · Browser automation & testing (Playwright) · Streamlit apps · Web4 / decentralized tooling  
+- Practices: Design for automation · Developer experience · Open-source maintenance
+
+---
+
+## Featured projects
+(Selected from public repos — short description and quick links.)
+
+- [codex-cli](https://github.com/auraecosystem/codex-cli) — Lightweight coding agent that runs in your terminal.  
+- [passmark](https://github.com/auraecosystem/passmark) — Playwright-based AI browser regression testing with intelligent caching, auto-healing, and multi-model verification.  
+- [hyperweave](https://github.com/auraecosystem/hyperweave) — Artifact layer for agent-human representations; one API call, one SVG, zero dependencies.  
+- [readme-ai-streamlit](https://github.com/auraecosystem/readme-ai-streamlit) — Streamlit README file generator powered by AI.  
+- [skills](https://github.com/auraecosystem/skills) — Reusable agent skills for building plug-and-play agent workflows.  
+- [aurora](https://github.com/auraecosystem/aurora) — A productivity workstation project aimed at improving developer workflows.
+
+If you'd like a different set of projects highlighted, tell me which 3–6 repos to feature and I’ll swap them in (I can also add star counts or demo links).
+
+---
+
+## Open-source & contributions
+I maintain and contribute to many repositories spanning AI agents, tooling, web apps, and system utilities. Want curated highlights (top PRs, notable issues, or community impact)? Tell me which repos to surface and I’ll add short callouts.
+
+---
+
+## Blog, talks & writing
+No external blog or talk links were provided on the public profile. If you have posts, talks, or a newsletter you'd like shown, paste the links and I’ll add them with one-line summaries.
+
+---
+
+## Quick stats
+![Aura Ecosystem's GitHub stats](https://github-readme-stats.vercel.app/api?username=auraecosystem&show_icons=true&title_color=ffffff&icon_color=79ff97&text_color=9f9f9f&bg_color=0d1117)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=auraecosystem&layout=compact)](https://github.com/auraecosystem)
+
+(Stats are dynamic — say "disable stats" if you prefer a static README.)
+
+---
+
+## How to reach me
+- GitHub: https://github.com/auraecosystem
+
+(Other public contact links — LinkedIn, Twitter, website, email — were not found in the public profile. If you want them displayed, paste them and I’ll add badges/links.)
+
+---
+
+## Availability
+- Open to collaboration and community contributions. If you want to work together on agentic tooling, testing automation, or Web4 experiments, open an issue or create a PR on the relevant repo with a short description.
+
+---
+
+## Tech & workspace
+- Typical stack: Node.js / Python · Playwright · Streamlit · CLI-first tooling  
+- Workstyle: repository-driven, incremental experimentation, and pragmatic automation
+
+---
+
+## Fun facts
+- I host a wide variety of experimental projects — from CLIs to AI tooling and web-native apps.  
+- I favor tools and patterns that make automation repeatable and reviewable (good for teams & OSS).
+
+---
+
+
+
