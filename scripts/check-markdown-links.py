@@ -10,6 +10,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(\s*(?:<([^>]+)>|([^\s)]+))")
 SKIP_DIRS = {".git", ".github", "node_modules", "vendor", ".venv"}
+BACKTICK = chr(96)
 
 
 def markdown_files() -> list[Path]:
@@ -27,9 +28,8 @@ def check_file(path: Path) -> list[str]:
     fence_marker = ""
     for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         stripped = line.lstrip()
-        fence = re.match(r"(\`{3,}|~{3,})", stripped)
-        if fence:
-            marker = fence.group(1)
+        marker = BACKTICK * 3 if stripped.startswith(BACKTICK * 3) else ("~~~" if stripped.startswith("~~~") else "")
+        if marker:
             if not in_fence:
                 in_fence = True
                 fence_marker = marker[0]
@@ -64,7 +64,7 @@ def main() -> int:
     files = markdown_files()
     errors = [error for path in files for error in check_file(path)]
     if errors:
-        print("\\n".join(errors), file=sys.stderr)
+        print("\n".join(errors), file=sys.stderr)
         print(f"Found {len(errors)} broken local Markdown link(s) across {len(files)} files.", file=sys.stderr)
         return 1
     print(f"Checked local inline Markdown links in {len(files)} Markdown files; no missing targets found.")
