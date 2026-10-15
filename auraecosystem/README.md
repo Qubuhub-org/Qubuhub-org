@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Aura Ecosystem — Open source, AI agents & Web4 tooling
+# Hi there 👋 I'm Aura Ecosystem — Open source, AI agents & Web4 tooling 
 
 > Building developer tools, agentic workflows, and web-native experiences. I ship practical open-source software that helps teams automate work and move from prototype to production.
 
@@ -29,7 +29,7 @@
 - [hyperweave](https://github.com/auraecosystem/hyperweave) — Artifact layer for agent-human representations; one API call, one SVG, zero dependencies.  
 - [readme-ai-streamlit](https://github.com/auraecosystem/readme-ai-streamlit) — Streamlit README file generator powered by AI.  
 - [skills](https://github.com/auraecosystem/skills) — Reusable agent skills for building plug-and-play agent workflows.  
-- [aurora](https://github.com/auraecosystem/aurora) — A productivity workstation project aimed at improving developer workflows.
+- [aurora](https://github.com/auraecosystem/aura) — A productivity workstation project aimed at improving developer workflows.
 
 If you'd like a different set of projects highlighted, tell me which 3–6 repos to feature and I’ll swap them in (I can also add star counts or demo links).
 
@@ -76,6 +76,3 @@ No external blog or talk links were provided on the public profile. If you have 
 - I favor tools and patterns that make automation repeatable and reviewable (good for teams & OSS).
 
 ---
-
-
-
