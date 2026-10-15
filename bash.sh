@@ -5,3 +5,6 @@ git clone --branch v0.8.7 https://github.com/auraecosystem/pgvector.git
 cd pgvector
 make
 make install # may need sudo
+sudo yum install pgvector_18
+# or
+sudo dnf install pgvector_18
