@@ -17,14 +17,16 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install ShellCheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes shellcheck
+
       - name: Validate Bash syntax
         run: bash -n scripts/install-pgvector.sh
 
       - name: Lint shell script
-        uses: ludeeus/action-shellcheck@master
-        with:
-          scandir: scripts
-          severity: warning
+        run: shellcheck --severity=warning scripts/install-pgvector.sh
 
       - name: Check whitespace errors
         run: git diff --check
