@@ -1,0 +1,21 @@
+@codex ^D START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
+                      ↓
+        ┌─────────────┼─────────────┐
+        ↓             ↓             ↓
+    [Developer]  [Designer]   [Researcher]
+        ↓             ↓             ↓
+   Code Issues   UI/UX Tasks   Research Tasks
+        ↓             ↓             ↓
+    Open PR      Design PR    Paper/Proposal
+        ↓             ↓             ↓
+    Get Merged  Review/Merge  Get Accepted
+        ↓             ↓             ↓
+    Join Team!  🎉 Community 🎉 Contribute!
+| Project | Description | Status | Tech Stack |
+|---------|-------------|--------|-----------|
+| ![Web4 Logo](https://via.placeholder.com/40x40/667eea/ffffff?text=W4) **[web4-OS](https://github.com/Qubuhub-org/web4-OS)** | Operating system framework for decentralized applications | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | TypeScript, Rust |
+| ![Lang Logo](https://via.placeholder.com/40x40/764ba2/ffffff?text=LG) **[web4lang](https://github.com/Qubuhub-org/web4lang)** | Domain-specific language for smart contract development | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Go, LLVM |
+| ![Protocol Logo](https://via.placeholder.com/40x40/f093fb/ffffff?text=PR) **[Quantum-Protocol](https://github.com/Qubuhub-org/quantum-protocol)** | Advanced quantum computing protocol stack | ![In Development](https://img.shields.io/badge/Status-In%20Development-blue) | Python, Qiskit |
+| ![DeFi Logo](https://via.placeholder.com/40x40/667eea/ffffff?text=DF) **[DeFi-Hub](https://github.com/Qubuhub-org/defi-hub)** | Comprehensive DeFi platform and tools | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Solidity, Web3.js |
+| ![Tools Logo](https://via.placeholder.com/40x40/764ba2/ffffff?text=TL) **[DevTools](https://github.com/Qubuhub-org/devtools)** | CLI tools and development utilities | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | Node.js, CLI |
+| ![dApp Logo](https://via.placeholder.com/40x40/f093fb/ffffff?text=DA) **[dApp-Builder](https://github.com/Qubuhub-org/dapp-builder)** | Visual builder for decentralized applications | ![In Development](https://img.shields.io/badge/Status-In%20Development-blue) | React, Next.js |
