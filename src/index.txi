@@ -1,13 +1,13 @@
-START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
-                      ↓
-        ┌─────────────┼─────────────┐
-        ↓             ↓             ↓
-    [Developer]  [Designer]   [Researcher]
-        ↓             ↓             ↓
-   Code Issues   UI/UX Tasks   Research Tasks
-        ↓             ↓             ↓
-    Open PR      Design PR    Paper/Proposal
-        ↓             ↓             ↓
-    Get Merged  Review/Merge  Get Accepted
-        ↓             ↓             ↓
-    Join Team!  🎉 Community 🎉 Contribute!
+
+┌─────────────────────────────────────────────────────────────┐
+│                    QUBUHUB ECOSYSTEM                         │
+├─────────────────────────────────────────────────────────────┤
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │   Web4 OS    │  │  Blockchain  │  │   Quantum    │      │
+│  │  Framework   │  │   Protocol   │  │  Computing   │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │   DevTools   │  │    DeFi      │  │    dApps     │      │
+│  │   Suite      │  │   Platform   │  │   Builder    │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
+└─────────────────────────────────────────────────────────────┘
