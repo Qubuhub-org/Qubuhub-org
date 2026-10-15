@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 jobs:
-  shell:
-    name: Shell syntax and lint
+  quality:
+    name: Repository quality checks
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -27,3 +27,6 @@ jobs:
 
       - name: Lint shell script
         run: shellcheck --severity=warning scripts/install-pgvector.sh
+
+      - name: Check local Markdown links
+        run: python3 scripts/check-markdown-links.py
