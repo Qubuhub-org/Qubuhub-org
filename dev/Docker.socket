@@ -1,4 +1,0 @@
-docker context use desktop-linux
-desktop-linux
-Current context is now "desktop-linux"
-sudo systemctl disable docker docker.socket containerd
