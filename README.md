@@ -1,6 +1,6 @@
 # Welcome to Qubuhub 👋
 
-```
+```md
   ██████╗ ██╗   ██╗██████╗ ██╗   ██╗██╗  ██╗██╗   ██╗██████╗ 
  ██╔═══██╗██║   ██║██╔══██╗██║   ██║██║  ██║██║   ██║██╔══██╗
  ██║   ██║██║   ██║██████╔╝██║   ██║███████║██║   ██║██████╔╝
@@ -23,7 +23,7 @@ Qubuhub is a cutting-edge organization dedicated to developing innovative blockc
 
 ## 🚀 Our Core Focus Areas
 
-```
+```txt
 ┌─────────────────────────────────────────────────────────────┐
 │                    QUBUHUB ECOSYSTEM                         │
 ├─────────────────────────────────────────────────────────────┤
@@ -97,7 +97,7 @@ graph TD
 
 ## 🌟 Key Features
 
-```
+```xlslpaper
 ╔════════════════════════════════════════════════════════════════╗
 ║                    QUBUHUB FEATURES                             ║
 ╠════════════════════════════════════════════════════════════════╣
@@ -138,11 +138,11 @@ graph TD
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=dark)
 
 ### Blockchain & Web3
-![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=orange)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=purple)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF04D?style=for-the-badge&logo=hardhat&logoColor=black)
 ![IPFS](https://img.shields.io/badge/IPFS-69B29F?style=for-the-badge&logo=ipfs&logoColor=white)
 
@@ -158,7 +158,7 @@ graph TD
 
 ## 📈 Development Workflow
 
-```
+```sctm
 ┌──────────────────────────────────────────────────────────────┐
 │                   DEVELOPMENT PIPELINE                        │
 ├──────────────────────────────────────────────────────────────┤
@@ -177,7 +177,7 @@ graph TD
 
 ## 🤝 How to Get Involved
 
-```
+```stl
 START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
                       ↓
         ┌─────────────┼─────────────┐
@@ -216,7 +216,7 @@ START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
 | 🐛 **Issues** | [Report Bug](https://github.com/Qubuhub-org/issues) | Bug tracker |
 | 💬 **Discussions** | [Community Forum](https://github.com/Qubuhub-org/discussions) | Q&A and discussions |
 | 📝 **Blog** | [Blog](https://blog.qubuhub.org) | Latest updates |
-| 🎬 **Videos** | [YouTube Channel](https://youtube.com/qubuhub) | Video tutorials |
+| 🎬 **Videos** | [YouTube Channel](https://youtube.com/web4tube) | Video tutorials |
 
 </div>
 
@@ -224,7 +224,7 @@ START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
 
 ## 🎯 Roadmap 2024-2025
 
-```
+```md
 Q3 2024              Q4 2024              Q1 2025              Q2 2025
 │                    │                    │                    │
 ├─ v1.0 Release      ├─ Mainnet Launch    ├─ Quantum Module    ├─ Advanced Analytics
@@ -281,12 +281,12 @@ Experienced professionals with backgrounds in:
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-qubuhub.org-667eea?style=for-the-badge&logo=globe)](https://qubuhub.org)
-[![GitHub](https://img.shields.io/badge/GitHub-Qubuhub--org-000000?style=for-the-badge&logo=github)](https://github.com/Qubuhub-org)
+[![GitHub](https://img.shields.io/badge/GitHub-Qubuhub--org-000000?style=for-the-badge&logo=github)](https://Qubuhub-org.github.io)
 [![Email](https://img.shields.io/badge/Email-hello%40qubuhub.org-764ba2?style=for-the-badge&logo=gmail)](mailto:hello@qubuhub.org)
-[![Twitter](https://img.shields.io/badge/Twitter-%40Qubuhub-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/Qubuhub)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/qubuhub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/company/qubuhub)
-[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-0088cc?style=for-the-badge&logo=telegram)](https://t.me/qubuhub)
+[![Twitter](https://img.shields.io/badge/Twitter-%40Qubuhub-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/web4app)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/web4)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/company/web4hub)
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Chat-0088cc?style=for-the-badge&logo=telegram)](https://t.me/papperweb)
 [![Medium](https://img.shields.io/badge/Medium-Read%20More-000000?style=for-the-badge&logo=medium)](https://medium.com/qubuhub)
 
 </div>
@@ -301,7 +301,7 @@ We are committed to providing a welcoming and inspiring community for all. Pleas
 
 ## 📜 License Information
 
-```
+```bibio
 All Qubuhub projects are licensed under various open-source licenses:
 ├── MIT License (Most Projects)
 ├── Apache 2.0 (Blockchain Protocols)
@@ -337,7 +337,7 @@ Found a bug? Have a feature idea? Help us improve!
 
 ## 🙏 Special Thanks
 
-```
+```bash
 We extend our gratitude to:
 ├─ All our contributors
 ├─ The open-source community
@@ -350,7 +350,7 @@ We extend our gratitude to:
 
 <div align="center">
 
-![Footer Banner](https://via.placeholder.com/1200x200/667eea/ffffff?text=Building+the+Future+of+Web3)
+![Footer Banner](https://via.placeholder.com/1200x200/667eea/ffffff?text=Building+the+Future+of+Web4)
 
 **Made with ❤️ by the Qubuhub Community**
 
@@ -359,5 +359,4 @@ We extend our gratitude to:
 [⬆ Back to Top](#welcome-to-qubuhub-)
 
 *Last updated: 2026-08-26 | Follow us for latest updates!*
-
 </div>
