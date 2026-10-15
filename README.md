@@ -98,7 +98,7 @@ graph TD
 
 ## 🌟 Key Features
 
-```xlslpaper
+```alduino
 ╔════════════════════════════════════════════════════════════════╗
 ║                    QUBUHUB FEATURES                             ║
 ╠════════════════════════════════════════════════════════════════╣
@@ -178,7 +178,7 @@ graph TD
 
 ## 🤝 How to Get Involved
 
-```stl
+```markdown
 START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
                       ↓
         ┌─────────────┼─────────────┐
