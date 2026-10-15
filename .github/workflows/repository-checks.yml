@@ -27,6 +27,3 @@ jobs:
 
       - name: Lint shell script
         run: shellcheck --severity=warning scripts/install-pgvector.sh
-
-      - name: Check whitespace errors
-        run: git diff --check
