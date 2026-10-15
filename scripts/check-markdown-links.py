@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(\s*(?:<([^>]+)>|([^\s)]+))")
-SKIP_DIRS = {".git", ".github", "node_modules", "vendor", ".venv"}
+SKIP_DIRS = {".git", "node_modules", "vendor", ".venv"}
 BACKTICK = chr(96)
 
 
@@ -49,7 +49,7 @@ def check_file(path: Path) -> list[str]:
             local_path = unquote(parsed.path)
             if not local_path:
                 continue
-            candidate = (path.parent / local_path).resolve()
+            candidate = ((ROOT / local_path.lstrip("/")) if local_path.startswith("/") else (path.parent / local_path)).resolve()
             try:
                 candidate.relative_to(ROOT)
             except ValueError:
