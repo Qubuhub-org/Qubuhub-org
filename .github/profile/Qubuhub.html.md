@@ -11,6 +11,7 @@
 
 ![Qubuhub Organization Banner](https://via.placeholder.com/1200x400/667eea/ffffff?text=Welcome+to+Qubuhub)
 
+
 ## 🎯 About Us
 
 Qubuhub is a cutting-edge organization dedicated to developing innovative blockchain solutions, quantum computing applications, and next-generation web technologies. We're passionate about pushing the boundaries of what's possible and fostering a collaborative community of developers, researchers, and innovators.
@@ -222,10 +223,10 @@ START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
 
 ---
 
-## 🎯 Roadmap 2024-2025
+## 🎯 Roadmap 2025-2026
 
 ```md
-Q3 2024              Q4 2024              Q1 2025              Q2 2025
+Q3 2025              Q4 2026              Q1 2025              Q2 2025
 │                    │                    │                    │
 ├─ v1.0 Release      ├─ Mainnet Launch    ├─ Quantum Module    ├─ Advanced Analytics
 ├─ Beta Testing      ├─ Security Audit    ├─ dApp Marketplace  ├─ Enterprise Tier
