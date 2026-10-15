@@ -52,6 +52,7 @@ Qubuhub is a cutting-edge organization dedicated to developing innovative blockc
 
 ### 🏆 Main Repositories
 
+
 | Project | Description | Status | Tech Stack |
 |---------|-------------|--------|-----------|
 | ![Web4 Logo](https://via.placeholder.com/40x40/667eea/ffffff?text=W4) **[web4-OS](https://github.com/Qubuhub-org/web4-OS)** | Operating system framework for decentralized applications | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) | TypeScript, Rust |
