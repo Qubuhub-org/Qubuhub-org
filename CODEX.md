@@ -9,6 +9,20 @@
 @qwen
 >>
 
+```cmd
+┌──────────────────────────────────────────────────────────────┐
+│                   DEVELOPMENT PIPELINE                        │
+├──────────────────────────────────────────────────────────────┤
+│                                                                │
+│  PLAN → DEVELOP → TEST → BUILD → DEPLOY → MONITOR            │
+│   ↓        ↓        ↓       ↓       ↓         ↓               │
+│  Issue   Feature  Unit   Docker  Kubernetes Analytics         │
+│  Board   Branch   Tests  Image   Clusters   Dashboard         │
+│                                                                │
+│  ↑─────────────── FEEDBACK LOOP ──────────────────↑           │
+│                                                                │
+└──────────────────────────────────────────────────────────────┘
+```
 
 - ^↑D: detect -> analyze -> infer -> classify -> register -> learn
 - docs: Deep Semantic Knowledge 
