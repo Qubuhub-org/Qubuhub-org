@@ -1,6 +1,6 @@
 # Welcome to Qubuhub 👋
 
-```md
+```texi
   ██████╗ ██╗   ██╗██████╗ ██╗   ██╗██╗  ██╗██╗   ██╗██████╗ 
  ██╔═══██╗██║   ██║██╔══██╗██║   ██║██║  ██║██║   ██║██╔══██╗
  ██║   ██║██║   ██║██████╔╝██║   ██║███████║██║   ██║██████╔╝
@@ -24,7 +24,7 @@ Qubuhub is a cutting-edge organization dedicated to developing innovative blockc
 
 ## 🚀 Our Core Focus Areas
 
-```txt
+```txi
 ┌─────────────────────────────────────────────────────────────┐
 │                    QUBUHUB ECOSYSTEM                         │
 ├─────────────────────────────────────────────────────────────┤
@@ -98,7 +98,7 @@ graph TD
 
 ## 🌟 Key Features
 
-```alduino
+```texi
 ╔════════════════════════════════════════════════════════════════╗
 ║                    QUBUHUB FEATURES                             ║
 ╠════════════════════════════════════════════════════════════════╣
@@ -159,8 +159,8 @@ graph TD
 
 ## 📈 Development Workflow
 
-```sctm
-┌──────────────────────────────────────────────────────────────┐
+```texi
+┌─────────────────────────────────────────────────────────────┐
 │                   DEVELOPMENT PIPELINE                        │
 ├──────────────────────────────────────────────────────────────┤
 │                                                                │
@@ -179,7 +179,7 @@ graph TD
 ## 🤝 How to Get Involved
 
 ```markdown
-START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
+@codex ^D START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
                       ↓
         ┌─────────────┼─────────────┐
         ↓             ↓             ↓
@@ -192,6 +192,7 @@ START HERE ──→ Choose Your Path ──→ Contribute ──→ Level Up!
     Get Merged  Review/Merge  Get Accepted
         ↓             ↓             ↓
     Join Team!  🎉 Community 🎉 Contribute!
+
 ```
 
 ### Quick Start Guide
