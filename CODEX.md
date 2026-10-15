@@ -1,23 +1,33 @@
-@codex
-@>gemini.google.com
-@codex
+# LMLM AGENTS
 
-*  ^↑D: detect -> analyze -> infer -> classify -> register -> learn
-docs: Deep Semantic Knowledge 
-Directive: analyze the supplied subject deeply 
-identify: its essential concepts and relationships 
-synthesize: All the repo knowledge into a clear summary 
-rigorous: summarize 
-optimized: curiousity mindset nd for a curious, highly capable student or researcher
-—-
+> @codex run ^D execute
+> [@run_present](https://gemini.google.com)
+
+>>
+@codexlmlm
+@claude
+@cursor
+@qwen
+>>
+
+
+- ^↑D: detect -> analyze -> infer -> classify -> register -> learn
+- docs: Deep Semantic Knowledge 
+- Directive: analyze the supplied subject deeply 
+- identify: its essential concepts and relationships 
+- synthesize: All the repo knowledge into a clear summary 
+- rigorous: summarize 
+- optimized: curiousity mindset nd for a curious, highly capable student or researcher
+  
 >_talking about operator semantics, not just the appearance of the symbol. 🔥
 
-@gemini @codex^↑D is to be an instruction in your language, the key question is: what operation should the compiler perform when it sees it?
+# @gemini @codex:
+:[^↑D ]: is to be an instruction in your language, the key question is: what operation should the compiler perform when it sees it?
 Here are useful interpretations:
 Symbol	Possible instruction	Meaning
 ^↑D	Directed D	Send/transform D upward through a defined operation
 ↑D	Raise D	Move D to a higher scope, level, state, or value
-^D	Power D	Exponentiation or another unary transformation
+:[^D]:	Power D	Exponentiation or another unary transformation
 ⇧D	Shift D	Shift/modify D
 ↑ᴰ	Promote D	Promote D to a higher type/state
 #>But there's an important compiler-design point:
