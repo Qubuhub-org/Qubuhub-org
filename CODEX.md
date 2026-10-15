@@ -2,11 +2,33 @@
 
 > @codex run ^D execute
 > [@run_present](https://gemini.google.com)
+
 >>
-@codexlmlm
-@claude
-@cursor
-@qwen
+@codexlmlm,@claude,@cursor,@qwen
+>><!-- codex-pull-request-review-summary -->
+<!-- codex-review-state:v1 {"code_review":{"commit_sha":"efd251415dd3f5381be944d9f5d213bbb4527176","has_any_findings":true,"has_unresolved_findings":true,"status":"failed"},"security_review":{"commit_sha":null,"has_any_findings":null,"has_unresolved_findings":null,"status":null}} -->
+
+## Codex Review Summary
+
+This comment shows the latest Codex review activity on this pull request.
+
+| Review | Status | Commit | Review trigger |
+| --- | --- | --- | --- |
+| 📝 **Code Review** | ⚠️ **Failed** <relative-time datetime="2026-10-15T02:08:31.474512Z">2026-10-15T02:08:31.474512Z</relative-time> | `efd2514` | Draft marked ready |
+
+
+
+<details> <summary>ℹ️ About Codex in GitHub</summary>
+<br/>
+
+[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you
+- Open a pull request for review
+- Mark a draft as ready
+- Comment "@codex review" or "@codex security review".
+
+Codex reacts with 👀 while any review is running, comments if it has suggestions, and reacts with 👍 once all reviews finish with no findings.
+
+</details>
 >>
 
 ```cmd
