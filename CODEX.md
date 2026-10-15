@@ -137,7 +137,8 @@ npm notice Changelog: https://github.com/auraecosystem/npm/cli/releases/tag/v12.
 npm notice To update run: npm install -g npm@12.0.2
 npm notice
 ⠏No installations were performed.
-```js
+
+```ts
 /* eslint-disable import/no-extraneous-dependencies */ 
 import retry from 'async-retry' 
 import { copyFileSync, existsSync, mkdirSync } from 'node:fs' 
@@ -340,6 +341,7 @@ ignorePath
 
 
 // Copy `next-env.d.ts` to any example that is typescript
+
 ```next-env.d.ts
 const tsconfigPath = join(root, 'tsconfig.json')
 if (existsSync(tsconfigPath)) {
@@ -357,8 +359,8 @@ if (!skipInstall && hasPackageJson) {
   await install(packageManager, isOnline)
   console.log()
 }
-
-} else { 
+}
+else { 
 /** 
 * If an example repository is not provided for cloning, proceed 
 * by installing from a template. 
@@ -467,13 +469,14 @@ UNDERSTAND
 → RESULT
 
 Never optimize for apparent progress at the expense of correctness.
-
+`vX.Y.Z-staging.N`
 ⸻
 
 1. SCRIPT.GOD OPERATION MODEL
 
 SCRIPT.GOD separates semantic intelligence from execution.
 
+```svg
                  SCRIPT.GOD
                      │
           ┌──────────┴──────────┐
@@ -491,8 +494,9 @@ SCRIPT.GOD separates semantic intelligence from execution.
                    VERIFY
                      │
                   RESULT
+```
 
-The fundamental relationship is:
+# The fundamental relationship is:
 
 ^↑D = KNOWLEDGE
 ^D  = ACTION
@@ -902,17 +906,18 @@ Do not grant a runner unnecessary organization-wide permissions.
 13. NVIDIA GPU VALIDATION
 
 Before deploying NIM:
-
+```
 nvidia-smi
-
+```
 Then verify Docker GPU access.
 
 Conceptually:
 
+```bash
 docker run --rm --gpus all \
   nvidia/cuda:<PINNED-VERSION> \
   nvidia-smi
-
+```
 Do not proceed until:
 
 HOST GPU
@@ -956,8 +961,9 @@ For Kubernetes use Kubernetes Secrets or, preferably, an external secret-managem
 There are two supported conceptual deployment modes:
 
 DEVELOPMENT
+```ba
 Docker NIM
-
+```
 and:
 
 PRODUCTION
@@ -977,18 +983,18 @@ Kubernetes NIM is the preferred architecture for persistent LMLM infrastructure.
 16. LOCAL NIM VALIDATION
 
 Use a protected API key:
-
+```bash
 export NGC_API_KEY="<SECRET>"
-
+```
 Create a persistent cache:
-
+```bash
 export LOCAL_NIM_CACHE="$HOME/.cache/nim"
 mkdir -p "$LOCAL_NIM_CACHE"
-
+```
 Use a pinned model version.
 
 Conceptually:
-
+```
 docker run --rm \
   --gpus all \
   --shm-size=16GB \
@@ -997,7 +1003,7 @@ docker run --rm \
   -u "$(id -u)" \
   -p 8000:8000 \
   nvcr.io/nim/<MODEL>:<PINNED_VERSION>
-
+```
 Do not use latest for production.
 
 ⸻
@@ -1005,26 +1011,26 @@ Do not use latest for production.
 17. NIM API VALIDATION
 
 Validate model discovery:
-
+```
 curl -fsS \
   http://127.0.0.1:8000/v1/models
-
+```
 Then validate inference:
-
+```
 curl -fsS \
   http://127.0.0.1:8000/v1/chat/completions \
   -H 'Content-Type: application/json' \
   -d '{
-    "model": "<MODEL_ID>",
+    "model": "<lmlm>",
     "messages": [
       {
         "role": "user",
         "content": "Return the word READY."
       }
     ],
-    "max_tokens": 16
-  }'
-
+    "max_tokens": 50000
+  }
+```
 A successful HTTP status is insufficient.
 
 Validate the actual response payload.
@@ -1034,19 +1040,19 @@ Validate the actual response payload.
 18. KUBERNETES NIM OPERATOR
 
 Add NVIDIA’s Helm repository:
-
+```
 helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
 helm repo update
-
+```
 Install the NIM Operator using a currently validated release.
 
 Do not blindly copy an obsolete chart version.
 
 Verify:
-
+```bash
 kubectl get pods -A
 kubectl get crd
-
+```
 The operator must be healthy before deploying NIM workloads.
 
 ⸻
@@ -1133,19 +1139,19 @@ as a service destination.
 23. KUBERNETES INFERENCE VALIDATION
 
 Launch a temporary diagnostic pod:
-
+```pod
 kubectl run curl \
   --rm \
   -it \
   -n default \
   --image=curlimages/curl:latest \
   -- sh
-
+```
 Then test:
-
+```bash
 curl -fsS \
   "http://<NIM_SERVICE>.nim-service.svc.cluster.local:8000/v1/models"
-
+```
 Then execute an inference request.
 
 Verify:
